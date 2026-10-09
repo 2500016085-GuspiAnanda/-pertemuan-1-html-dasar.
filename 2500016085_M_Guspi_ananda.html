@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html 
+    <head>
+        
+        <title>biodata muhammad guspi ananda</title>
+        <style>
+            body {
+                margin: 0;
+                padding: 0;
+                background-color: lightblue;
+                font-family: "Times New Roman", serif;
+            }
+
+            .container {
+                width: 500px;
+                margin: 0 auto;
+                padding: 20px;
+                box-sizing: border-box;
+                background-color: white;
+                border: 2px solid black; 
+                shadow: 0 0 10px rgba(142, 52, 52, 0.1);
+            }
+
+            .biodata p {
+                padding: 10px;
+                border-bottom: 1px solid black;
+            }
+
+            h1, h3 {
+                color: blue;
+            }
+
+            p, ul {
+                color: #0b9d4d;
+            }
+
+            img {
+                display: block;
+                margin: 0 auto;
+                border-radius: 50%;
+            }
+        </style>
+    </head>
+    <body>
+        <marquee direction="right" style="color: blue;">
+            <h1>SELAMAT DATANG DI HALAMAN BIODATA SAYA</h1>
+        </marquee>
+
+        <div class="container">
+            <div class="biodata">
+                <img src="poi.png" alt="Foto Profil" width="200" height="200">
+                <h1 id="judul">BIODATA MAHASISWA SISTEM INFORMASI</h1>
+                <p>Nama: Muhammad Guspi Ananda</p>
+                <p>Nim: 2500016085</p>
+                <p>tempat lahir : bangkinang</p>
+
+                <h3>Deskripsi Diri</h3>
+                <p>
+                    halo saya <b>M.guspi ananda</b>, saya seorang mahasiswa sistem informasi di universitas ahmad dahlan.
+                </p>
+                <p>
+                    saya sangat suka belajar dan mengeksplor hal baru, seperti artificial intelligence dan saya juga bercita-cita menjadi seorang ai engineer dan ceo
+                    membangun agency <b>VyraCreative.st</b>
+                </p>
+
+                <h3>Hobi saya:</h3>
+                <ul>
+                    <li>Bermain game</li>
+                    <li>Bermain futsal</li>
+                    <li>Menonton film</li>
+                    <li>bermain sepak bola</li>
+                </ul>
+
+                <p>ini adalah halaman biodata saya</p>
+                <button type="button" onclick="document.getElementById('demo').innerHTML = Date()">Tampilkan Tanggal dan Waktu</button>
+                <p id="demo"></p>
+            </div>
+        </div>
+    </body>
+</html>
